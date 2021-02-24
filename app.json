@@ -1,0 +1,12 @@
+{
+  "name": "DigitalAssign",
+  "displayName": "DigitalAssign",
+  "expo": {
+    "name": "DigitalAssign",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
