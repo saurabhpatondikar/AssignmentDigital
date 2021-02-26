@@ -12,6 +12,10 @@ class Screen1 extends PureComponent{
             nameEnter:''
         }
     }
+   /* _onChange(event: Event) {
+
+        console.log(event.nativeEvent.message);
+    }*/
     onSlide=()=>{
         console.log("Hello")
     }

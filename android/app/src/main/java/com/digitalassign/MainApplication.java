@@ -42,6 +42,7 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       List<ReactPackage> packages = new PackageList(this).getPackages();
+      packages.add(new ReactJavaPackage());
      // packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
       return packages;
     }
@@ -81,7 +82,7 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
-
+ReactJavaModuleClass.sendBack();
     if (!BuildConfig.DEBUG) {
      // UpdatesController.initialize(this);
     }

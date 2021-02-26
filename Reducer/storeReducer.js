@@ -3,7 +3,7 @@ import {constList} from "../Constants/constantsAct";
 export function addition(state=[],action){
     switch (action.type)
     {
-        case constants.ADD_DATA:
+        case constList.ADD_DATA:
             return {
                 addition:action.user
         };

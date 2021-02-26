@@ -4,5 +4,5 @@ export function storeAction(name){
         dispatch(success(name));
 
     };
-    function success(user) { return { type: constantsA.ADD_DATA, user } }
+    function success(user) { return { type: constList.ADD_DATA, user } }
 }
